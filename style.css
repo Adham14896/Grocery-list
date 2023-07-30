@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  font-family: "Lugrasimo", cursive;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+
+.grocery-container {
+  width: 600px;
+  min-height: 100vh;
+  margin: auto;
+  background: #fff;
+  box-shadow: 10px 10px 25px 0 black;
+}
+
+#title {
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 3px;
+  margin-top: 1em;
+}
+
+i {
+  font-size: 2rem;
+  color: orange;
+  cursor: pointer;
+}
+
+#user-input {
+  font-family: inherit;
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  width: 60%;
+  font-size: 1.5rem;
+  margin-top: 2.5em;
+}
+
+.items h2 {
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+#add {
+  margin-left: 3em;
+  width: 6em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: orange;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+#add:hover {
+  background: orangered;
+}
+
+i:hover {
+  color: #fcb045;
+}
+
+input::placeholder {
+  color: rgb(207, 205, 205);
+}
